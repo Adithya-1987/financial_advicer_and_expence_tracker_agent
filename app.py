@@ -66,7 +66,7 @@ left, right = st.columns(2)
 
 with left:
     st.subheader("Your screenshot")
-    st.image(image_bytes, use_container_width=True)
+    st.image(image_bytes, use_column_width=True)
 
 with right:
     st.subheader("What Google Vision read")
